@@ -1,5 +1,4 @@
-# Sprint: SPRINTNAMEHERE (29.06.2021 - 09.07.2021)
-
+# Sprint: Usain Bolt (29.06.2021 - 09.07.2021)
 
 ## Features/Stories/Tasks
 
@@ -40,3 +39,15 @@ Creata a service method for getting a specific product from the database
   - Story: As a Developer I want to host my front-end within the dotnet core api  
 Configure the aspnet core api to host js-frontend(vue)   
 Configure the front-end to send request to aspnet api(instead of express)  
+
+
+
+* Feature: Edit products as user
+  - Story: As a user I want to be able to create, update and delete products
+  Create a page where you can delete products from db
+  Create a page where you can update product information
+  Create a page where you can create new products and insert to db
+
+* Feature: Add styling/css
+  - Story: As a user I want the website to look nice and be responsive
+  Add slide to expand product information when a product is clicked
