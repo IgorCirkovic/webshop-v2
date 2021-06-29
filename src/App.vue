@@ -6,7 +6,7 @@
   <router-view/>
 </template>
 
-<style>
+<style lang="css">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -15,16 +15,33 @@
   color: #2c3e50;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+}
+
 #nav {
-  padding: 30px;
+  padding: 10px;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  line-height: 30px;
 }
 
-#nav a {
+a {
   font-weight: bold;
-  color: #2c3e50;
-}
+  color: gray;
+  text-decoration: none;
+  margin: 0 5px 0;
+  font-size: 1.25rem;
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+  &.active {
+    color: black;
+  }
 }
 </style>
